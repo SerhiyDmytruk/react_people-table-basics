@@ -7,7 +7,7 @@ type Props = {
   name: string;
 };
 
-export const PeopleLink: React.FC<Props> = ({ person, name }) => {
+export const PersonLink: React.FC<Props> = ({ person, name }) => {
   if (!person) {
     return name;
   }
